@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "da4-term-project"
+version = "0.1.0"
+description = ""
+authors = ["Istvan Peter Jaray <istvanpeterjaray@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.3"
+scikit-learn = "^1.6.1"
+pandas = "^2.2.3"
+statsmodels = "^0.14.4"
+requests = "^2.32.3"
+stargazer = "^0.0.7"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.0"
+geopandas = "^1.0.1"
+polyline = "^2.0.2"
+tqdm = "^4.67.1"
+logger = "^1.4"
+fuzzywuzzy = "^0.18.0"
+openpyxl = "^3.1.5"
+pyarrow = "^19.0.1"
+pydantic = "^2.10.6"
+geopy = "^2.4.1"
+python-levenshtein = "^0.26.1"
+httpx = "^0.28.1"
+igraph = "^0.11.8"
+folium = "^0.19.4"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+tenacity = "^9.0.0"
+structlog = "^25.1.0"
+inputimeout = "^1.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
