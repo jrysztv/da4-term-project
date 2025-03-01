@@ -33,6 +33,11 @@ jupyter = "^1.1.1"
 tenacity = "^9.0.0"
 structlog = "^25.1.0"
 inputimeout = "^1.0.4"
+config = "^0.5.1"
+python-dotenv = "^1.0.1"
+meteostat = "^1.6.8"
+linearmodels = "^6.1"
+plotly-express = "^0.4.1"
 
 
 [build-system]

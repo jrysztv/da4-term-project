@@ -1,0 +1,28 @@
+Fixed Differences Models<br><table style="text-align:center"><tr><td colspan="8" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="7"><em>Dependent variable: Δ Incoming Trains (≥1 min late)</em></td></tr><tr><td style="text-align:left"></td><tr><td></td><td colspan="1">Baseline</td><td colspan="1">Graph Measure</td><td colspan="1">Up to 2 Lags</td><td colspan="1">Weekend</td><td colspan="1">Time Fixed Effects</td><td colspan="1">Weather Confounders</td><td colspan="1">Graph Confounders</td></tr>
+<tr><td colspan="8" style="border-bottom: 1px solid black"></td></tr>
+
+<tr><td style="text-align:left">Intercept</td><td>0.001<sup></sup></td><td>0.001<sup></sup></td><td>0.001<sup></sup></td><td>0.014<sup>***</sup></td><td>0.304<sup>***</sup></td><td>0.001<sup></sup></td><td>0.003<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.006)</td><td>(0.001)</td><td>(0.009)</td></tr>
+<tr><td style="text-align:left">Δ Precipitation (t=0)</td><td>0.002<sup>***</sup></td><td>0.002<sup>***</sup></td><td>0.002<sup>**</sup></td><td>0.001<sup></sup></td><td>0.001<sup></sup></td><td>0.002<sup>***</sup></td><td>0.002<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.000)</td><td>(0.000)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left">Δ Precipitation (1-Day Lag)</td><td></td><td></td><td>0.000<sup></sup></td><td>-0.000<sup></sup></td><td>-0.001<sup></sup></td><td>0.000<sup></sup></td><td>0.000<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left">Δ Precipitation (2-Day Lag)</td><td></td><td></td><td>-0.000<sup></sup></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.001)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Δ Weighted Betweenness</td><td></td><td>-0.010<sup>***</sup></td><td>-0.010<sup>***</sup></td><td>-0.009<sup>***</sup></td><td>-0.003<sup>***</sup></td><td>-0.010<sup>***</sup></td><td>0.001<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left">Δ Weighted Closeness</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-4.800<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.061)</td></tr>
+<tr><td style="text-align:left">Log Incoming Distance Strength</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.001<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.003)</td></tr>
+<tr><td style="text-align:left">Log Incoming Time Strength</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.000<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.002)</td></tr>
+<tr><td style="text-align:left">Log Incoming Speed Strength</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.000<sup></sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.002)</td></tr>
+<tr><td style="text-align:left">Weekend Dummy</td><td></td><td></td><td></td><td>-0.047<sup>***</sup></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.002)</td><td></td><td></td><td></td></tr>
+
+<tr><td style="text-align: left">Time Fixed Effects</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td style="text-align: left">Weather Confounders</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td></tr><td colspan="8" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align: left">Observations</td><td>75915</td><td>75915</td><td>75913</td><td>75914</td><td>75914</td><td>75914</td><td>52604</td></tr><tr><td style="text-align: left">R<sup>2</sup></td><td>0.000</td><td>0.002</td><td>0.002</td><td>0.009</td><td>0.208</td><td>0.007</td><td>0.109</td></tr><tr><td style="text-align: left">Adjusted R<sup>2</sup></td><td>0.000</td><td>0.002</td><td>0.002</td><td>0.009</td><td>0.207</td><td>0.006</td><td>0.108</td></tr><tr><td style="text-align: left">Residual Std. Error</td><td>0.244 (df=75913)</td><td>0.244 (df=75912)</td><td>0.244 (df=75908)</td><td>0.243 (df=75909)</td><td>0.217 (df=75848)</td><td>0.243 (df=75902)</td><td>0.229 (df=52596)</td></tr><tr><td style="text-align: left">F Statistic</td><td>37.654<sup>***</sup> (df=1; 75913)</td><td>86.065<sup>***</sup> (df=2; 75912)</td><td>43.067<sup>***</sup> (df=4; 75908)</td><td>181.970<sup>***</sup> (df=4; 75909)</td><td>305.813<sup>***</sup> (df=65; 75848)</td><td>45.951<sup>***</sup> (df=11; 75902)</td><td>915.313<sup>***</sup> (df=7; 52596)</td></tr>
+<tr><td colspan="8" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align: left">Note:</td><td colspan="7" style="text-align: right"><sup>*</sup>p&lt;0.1; <sup>**</sup>p&lt;0.05; <sup>***</sup>p&lt;0.01</td></tr></table>
